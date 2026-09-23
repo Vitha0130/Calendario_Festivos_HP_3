@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Apifestivos.infraestructura")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("apiFestivos.core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2f6335cf5682ea41acec851845468e7488bdc56d")]
-[assembly: System.Reflection.AssemblyProductAttribute("Apifestivos.infraestructura")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Apifestivos.infraestructura")]
+[assembly: System.Reflection.AssemblyProductAttribute("apiFestivos.core")]
+[assembly: System.Reflection.AssemblyTitleAttribute("apiFestivos.core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.
