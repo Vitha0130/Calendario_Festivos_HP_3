@@ -1,4 +1,6 @@
 
+using Taller_1_Herramientas.InyeccionDependencias;
+
 namespace Taller_1_Herramientas
 {
     public class Program
@@ -7,24 +9,18 @@ namespace Taller_1_Herramientas
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
+            //establecer objeto de configuracion
+            var configuracion = builder.Configuration;
 
+            //establecer los objetos a inyectar
+            builder.Services.AgregarDependencias(configuracion);
             builder.Services.AddControllers();
-            // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-            builder.Services.AddOpenApi();
+
 
             var app = builder.Build();
 
-            // Configure the HTTP request pipeline.
-            if (app.Environment.IsDevelopment())
-            {
-                app.MapOpenApi();
-            }
 
             app.UseHttpsRedirection();
-
-            app.UseAuthorization();
-
 
             app.MapControllers();
 

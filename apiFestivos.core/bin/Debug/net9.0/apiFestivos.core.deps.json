@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "apiFestivos.core/1.0.0": {
+        "dependencies": {
+          "apiFestivos.dominio": "1.0.0"
+        },
+        "runtime": {
+          "apiFestivos.core.dll": {}
+        }
+      },
+      "apiFestivos.dominio/1.0.0": {
+        "runtime": {
+          "apiFestivos.dominio.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "apiFestivos.core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "apiFestivos.dominio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

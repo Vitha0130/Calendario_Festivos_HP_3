@@ -1,0 +1,295 @@
+﻿20 matches found: 
+<match path=C:\Users\User\OneDrive\Documents\C#\Taller_1_Herramientas\Taller_1_Herramientas\Program.cs>
+    // Lines 1 to 34
+</match>
+<match path=C:\Users\User\OneDrive\Documents\C#\Taller_1_Herramientas\Taller_1_Herramientas\Program.cs>
+    // Lines 1 to 34
+</match>
+<match path=C:\Users\User\OneDrive\Documents\C#\Taller_1_Herramientas\Taller_1_Herramientas\Controllers\WeatherForecastController.cs>
+    File: `Taller_1_Herramientas/Controllers/WeatherForecastController.cs`
+```c#
+using Microsoft.AspNetCore.Mvc;
+
+namespace Taller_1_Herramientas.Controllers
+{
+    [ApiController]
+    [Route("[controller]")]
+    public class WeatherForecastController : ControllerBase
+    {
+        private static readonly string[] Summaries = new[]
+        {
+            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+        };
+
+        private readonly ILogger<WeatherForecastController> _logger;
+
+        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        {
+            _logger = logger;
+        }
+
+        [HttpGet(Name = "GetWeatherForecast")]
+        public IEnumerable<WeatherForecast> Get()
+        {
+            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
+            {
+                Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
+                TemperatureC = Random.Shared.Next(-20, 55),
+                Summary = Summaries[Random.Shared.Next(Summaries.Length)]
+            })
+            .ToArray();
+        }
+    }
+}
+
+```
+</match>
+<match path=C:\Users\User\OneDrive\Documents\C#\Taller_1_Herramientas\Apifestivos.infraestructura\repositorios\FestivosRepositorio.cs>
+    // Lines 14 to 69
+</match>
+<match path=C:\Users\User\OneDrive\Documents\C#\Taller_1_Herramientas\Apifestivos.infraestructura\repositorios\FestivosRepositorio.cs>
+    // Lines 44 to 69
+</match>
+<match path=C:\Users\User\OneDrive\Documents\C#\Taller_1_Herramientas\apiFestivos.core\repositorio\IFestivoRepositorio.cs>
+    File: `apiFestivos.core/repositorio/IFestivoRepositorio.cs`
+```c#
+/*...*/using apiFestivos.dominio;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace apiFestivos.core.repositorio
+{
+    public interface IFestivoRepositorio
+    {
+        Task<IEnumerable<Festivo>> ObtenerTodos();
+        Task<Festivo?> ObtenerPorId(int id);
+        Task<Festivo> Crear(Festivo festivo);
+        Task Actualizar(Festivo festivo);
+        Task<bool> Eliminar(int id);
+
+        Task<IEnumerable<Festivo>> ObtenerPorPais(int idPais);
+    }
+}
+
+```
+</match>
+<match path=C:\Users\User\OneDrive\Documents\C#\Taller_1_Herramientas\apiFestivos.core\servicios\IPaisServicio.cs>
+    File: `apiFestivos.core/servicios/IPaisServicio.cs`
+```c#
+/*...*/using apiFestivos.dominio;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace apiFestivos.core.servicios
+{
+    public interface IPaisServicio
+    {
+        Task<IEnumerable<Pais>> ObtenerTodos();
+        Task<Pais?> ObtenerPorId(int id);
+        Task<Pais> Crear(Pais pais);
+        Task Actualizar(Pais pais);
+        Task<bool> Eliminar(int id);
+    }
+}
+
+```
+</match>
+<match path=C:\Users\User\OneDrive\Documents\C#\Taller_1_Herramientas\apiFestivos.core\repositorio\IPaisRepositorio.cs>
+    File: `apiFestivos.core/repositorio/IPaisRepositorio.cs`
+```c#
+/*...*/using apiFestivos.dominio;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+
+namespace apiFestivos.core.repositorio
+{
+    public interface IPaisRepositorio
+    {
+        Task<IEnumerable<Pais>> ObtenerTodos();
+        Task<Pais?> ObtenerPorId(int id);
+        Task<Pais> Crear(Pais pais);
+        Task Actualizar(Pais pais);
+        Task<bool> Eliminar(int id);
+    }
+}
+
+```
+</match>
+<match path=C:\Users\User\OneDrive\Documents\C#\Taller_1_Herramientas\Apifestivos.infraestructura\repositorios\PaisesRepositorio.cs>
+    // Lines 14 to 57
+</match>
+<match path=C:\Users\User\OneDrive\Documents\C#\Taller_1_Herramientas\Apifestivos.infraestructura\repositorios\PaisesRepositorio.cs>
+    // Lines 16 to 45
+</match>
+<match path=C:\Users\User\OneDrive\Documents\C#\Taller_1_Herramientas\apiFestivos.dominio\Pais.cs>
+    File: `apiFestivos.dominio/Pais.cs`
+```c#
+/*...*/using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace apiFestivos.dominio
+{
+    [Table("Pais")]
+    public class Pais
+    {
+
+        [Column("Id")]
+        [Key]
+        public int Id { get; set; }
+
+        [Column("Nombre")]
+        [Required]
+        [MaxLength(100)]
+        public string Nombre { get; set; } = string.Empty;
+
+        // Propiedad de navegación (relación 1 a muchos con Festivo)
+        public ICollection<Festivo> Festivos { get; set; } = new List<Festivo>();
+    }
+}
+
+```
+</match>
+<match path=C:\Users\User\OneDrive\Documents\C#\Taller_1_Herramientas\Taller_1_Herramientas\obj\Debug\net9.0\Taller_1_Herramientas.GlobalUsings.g.cs>
+    File: `Taller_1_Herramientas/obj/Debug/net9.0/Taller_1_Herramientas.GlobalUsings.g.cs`
+```c#
+// <auto-generated/>
+global using global::Microsoft.AspNetCore.Builder;
+global using global::Microsoft.AspNetCore.Hosting;
+global using global::Microsoft.AspNetCore.Http;
+global using global::Microsoft.AspNetCore.Routing;
+global using global::Microsoft.Extensions.Configuration;
+global using global::Microsoft.Extensions.DependencyInjection;
+global using global::Microsoft.Extensions.Hosting;
+global using global::Microsoft.Extensions.Logging;
+global using global::System;
+global using global::System.Collections.Generic;
+global using global::System.IO;
+global using global::System.Linq;
+global using global::System.Net.Http;
+global using global::System.Net.Http.Json;
+global using global::System.Threading;
+global using global::System.Threading.Tasks;
+
+```
+</match>
+<match path=C:\Users\User\OneDrive\Documents\C#\Taller_1_Herramientas\apiFestivos.core\servicios\ITipoServicio.cs>
+    File: `apiFestivos.core/servicios/ITipoServicio.cs`
+```c#
+/*...*/using apiFestivos.dominio;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace apiFestivos.core.servicios
+{
+    public interface ITipoServicio
+    {
+        Task<IEnumerable<Tipo>> ObtenerTodos();
+        Task<Tipo?> ObtenerPorId(int id);
+        Task<Tipo> Crear(Tipo tipo);
+        Task Actualizar(Tipo tipo);
+        Task<bool> Eliminar(int id);
+    }
+}
+
+```
+</match>
+<match path=C:\Users\User\OneDrive\Documents\C#\Taller_1_Herramientas\Apifestivos.infraestructura\obj\Debug\net9.0\Apifestivos.infraestructura.AssemblyInfo.cs>
+    // Lines 21 to 22
+</match>
+<match path=C:\Users\User\OneDrive\Documents\C#\Taller_1_Herramientas\Apifestivos.infraestructura\obj\Debug\net9.0\Apifestivos.infraestructura.AssemblyInfo.cs>
+    // Lines 21 to 22
+</match>
+<match path=C:\Users\User\OneDrive\Documents\C#\Taller_1_Herramientas\Apifestivos.infraestructura\obj\Debug\net9.0\Apifestivos.infraestructura.GlobalUsings.g.cs>
+    File: `Apifestivos.infraestructura/obj/Debug/net9.0/Apifestivos.infraestructura.GlobalUsings.g.cs`
+```c#
+// <auto-generated/>
+global using global::System;
+global using global::System.Collections.Generic;
+global using global::System.IO;
+global using global::System.Linq;
+global using global::System.Net.Http;
+global using global::System.Threading;
+global using global::System.Threading.Tasks;
+
+```
+</match>
+<match path=C:\Users\User\OneDrive\Documents\C#\Taller_1_Herramientas\Apifestivos.infraestructura\obj\Debug\net9.0\Apifestivos.infraestructura.GlobalUsings.g.cs>
+    File: `Apifestivos.infraestructura/obj/Debug/net9.0/Apifestivos.infraestructura.GlobalUsings.g.cs`
+```c#
+// <auto-generated/>
+global using global::System;
+global using global::System.Collections.Generic;
+global using global::System.IO;
+global using global::System.Linq;
+global using global::System.Net.Http;
+global using global::System.Threading;
+global using global::System.Threading.Tasks;
+
+```
+</match>
+<match path=C:\Users\User\OneDrive\Documents\C#\Taller_1_Herramientas\apiFestivos.dominio\Tipo.cs>
+    File: `apiFestivos.dominio/Tipo.cs`
+```c#
+/*...*/using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace apiFestivos.dominio
+{
+    [Table("Tipo")]
+    public class Tipo
+    {
+
+        [Column("Id")]
+        [Key]
+        public int Id { get; set; }
+
+        [Column("Tipo")]
+        [Required]
+        [MaxLength(100)]
+        public string Tipo1 { get; set; } = string.Empty; 
+        public ICollection<Festivo> Festivos { get; set; } = new List<Festivo>();
+    }
+}
+
+```
+</match>
+<match path=C:\Users\User\OneDrive\Documents\C#\Taller_1_Herramientas\Taller_1_Herramientas\obj\Debug\net9.0\Taller_1_Herramientas.AssemblyInfo.cs>
+    // Lines 21 to 22
+</match>
+<match path=C:\Users\User\OneDrive\Documents\C#\Taller_1_Herramientas\apiFestivos.core\obj\Debug\net9.0\apiFestivos.core.GlobalUsings.g.cs>
+    File: `apiFestivos.core/obj/Debug/net9.0/apiFestivos.core.GlobalUsings.g.cs`
+```c#
+// <auto-generated/>
+global using global::System;
+global using global::System.Collections.Generic;
+global using global::System.IO;
+global using global::System.Linq;
+global using global::System.Net.Http;
+global using global::System.Threading;
+global using global::System.Threading.Tasks;
+
+```
+</match>

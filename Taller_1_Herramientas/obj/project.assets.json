@@ -1020,6 +1020,57 @@
             "rid": "win"
           }
         }
+      },
+      "apiFestivos.aplicacion/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "apiFestivos.core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/apiFestivos.aplicacion.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/apiFestivos.aplicacion.dll": {}
+        }
+      },
+      "apiFestivos.core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "apiFestivos.dominio": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/apiFestivos.core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/apiFestivos.core.dll": {}
+        }
+      },
+      "apiFestivos.dominio/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/apiFestivos.dominio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/apiFestivos.dominio.dll": {}
+        }
+      },
+      "Apifestivos.infraestructura/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.9",
+          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.9",
+          "apiFestivos.core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Apifestivos.infraestructura.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Apifestivos.infraestructura.dll": {}
+        }
       }
     }
   },
@@ -2801,13 +2852,37 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "apiFestivos.aplicacion/1.0.0": {
+      "type": "project",
+      "path": "../apiFestivos.aplicacion/apiFestivos.aplicacion.csproj",
+      "msbuildProject": "../apiFestivos.aplicacion/apiFestivos.aplicacion.csproj"
+    },
+    "apiFestivos.core/1.0.0": {
+      "type": "project",
+      "path": "../apiFestivos.core/apiFestivos.core.csproj",
+      "msbuildProject": "../apiFestivos.core/apiFestivos.core.csproj"
+    },
+    "apiFestivos.dominio/1.0.0": {
+      "type": "project",
+      "path": "../apiFestivos.dominio/apiFestivos.dominio.csproj",
+      "msbuildProject": "../apiFestivos.dominio/apiFestivos.dominio.csproj"
+    },
+    "Apifestivos.infraestructura/1.0.0": {
+      "type": "project",
+      "path": "../Apifestivos.infraestructura/Apifestivos.infraestructura.csproj",
+      "msbuildProject": "../Apifestivos.infraestructura/Apifestivos.infraestructura.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "Apifestivos.infraestructura >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 9.0.19",
       "Microsoft.EntityFrameworkCore >= 9.0.9",
-      "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.9"
+      "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.9",
+      "apiFestivos.aplicacion >= 1.0.0",
+      "apiFestivos.core >= 1.0.0",
+      "apiFestivos.dominio >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2841,7 +2916,20 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\User\\OneDrive\\Documents\\C#\\Taller_1_Herramientas\\apiFestivos.aplicacion\\apiFestivos.aplicacion.csproj": {
+              "projectPath": "C:\\Users\\User\\OneDrive\\Documents\\C#\\Taller_1_Herramientas\\apiFestivos.aplicacion\\apiFestivos.aplicacion.csproj"
+            },
+            "C:\\Users\\User\\OneDrive\\Documents\\C#\\Taller_1_Herramientas\\apiFestivos.core\\apiFestivos.core.csproj": {
+              "projectPath": "C:\\Users\\User\\OneDrive\\Documents\\C#\\Taller_1_Herramientas\\apiFestivos.core\\apiFestivos.core.csproj"
+            },
+            "C:\\Users\\User\\OneDrive\\Documents\\C#\\Taller_1_Herramientas\\apiFestivos.dominio\\apiFestivos.dominio.csproj": {
+              "projectPath": "C:\\Users\\User\\OneDrive\\Documents\\C#\\Taller_1_Herramientas\\apiFestivos.dominio\\apiFestivos.dominio.csproj"
+            },
+            "C:\\Users\\User\\OneDrive\\Documents\\C#\\Taller_1_Herramientas\\Apifestivos.infraestructura\\Apifestivos.infraestructura.csproj": {
+              "projectPath": "C:\\Users\\User\\OneDrive\\Documents\\C#\\Taller_1_Herramientas\\Apifestivos.infraestructura\\Apifestivos.infraestructura.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

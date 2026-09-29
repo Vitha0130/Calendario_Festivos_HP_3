@@ -12,4 +12,11 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.9" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\apiFestivos.aplicacion\apiFestivos.aplicacion.csproj" />
+    <ProjectReference Include="..\apiFestivos.core\apiFestivos.core.csproj" />
+    <ProjectReference Include="..\apiFestivos.dominio\apiFestivos.dominio.csproj" />
+    <ProjectReference Include="..\Apifestivos.infraestructura\Apifestivos.infraestructura.csproj" />
+  </ItemGroup>
+
 </Project>

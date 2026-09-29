@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Apifestivos.infraestructura")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2f6335cf5682ea41acec851845468e7488bdc56d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b4201b0b9ed94f8d482a12a3d8a94e345bf360c7")]
 [assembly: System.Reflection.AssemblyProductAttribute("Apifestivos.infraestructura")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Apifestivos.infraestructura")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

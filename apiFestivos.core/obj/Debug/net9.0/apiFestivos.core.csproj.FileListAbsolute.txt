@@ -1,0 +1,16 @@
+C:\Users\User\OneDrive\Documents\C#\Taller_1_Herramientas\apiFestivos.core\bin\Debug\net9.0\apiFestivos.core.deps.json
+C:\Users\User\OneDrive\Documents\C#\Taller_1_Herramientas\apiFestivos.core\bin\Debug\net9.0\apiFestivos.core.dll
+C:\Users\User\OneDrive\Documents\C#\Taller_1_Herramientas\apiFestivos.core\bin\Debug\net9.0\apiFestivos.core.pdb
+C:\Users\User\OneDrive\Documents\C#\Taller_1_Herramientas\apiFestivos.core\bin\Debug\net9.0\apiFestivos.dominio.dll
+C:\Users\User\OneDrive\Documents\C#\Taller_1_Herramientas\apiFestivos.core\bin\Debug\net9.0\apiFestivos.dominio.pdb
+C:\Users\User\OneDrive\Documents\C#\Taller_1_Herramientas\apiFestivos.core\obj\Debug\net9.0\apiFestivos.core.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Documents\C#\Taller_1_Herramientas\apiFestivos.core\obj\Debug\net9.0\apiFestivos.core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive\Documents\C#\Taller_1_Herramientas\apiFestivos.core\obj\Debug\net9.0\apiFestivos.core.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive\Documents\C#\Taller_1_Herramientas\apiFestivos.core\obj\Debug\net9.0\apiFestivos.core.AssemblyInfo.cs
+C:\Users\User\OneDrive\Documents\C#\Taller_1_Herramientas\apiFestivos.core\obj\Debug\net9.0\apiFestivos.core.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Documents\C#\Taller_1_Herramientas\apiFestivos.core\obj\Debug\net9.0\apiFestivos.core.sourcelink.json
+C:\Users\User\OneDrive\Documents\C#\Taller_1_Herramientas\apiFestivos.core\obj\Debug\net9.0\apiFesti.D30EC353.Up2Date
+C:\Users\User\OneDrive\Documents\C#\Taller_1_Herramientas\apiFestivos.core\obj\Debug\net9.0\apiFestivos.core.dll
+C:\Users\User\OneDrive\Documents\C#\Taller_1_Herramientas\apiFestivos.core\obj\Debug\net9.0\refint\apiFestivos.core.dll
+C:\Users\User\OneDrive\Documents\C#\Taller_1_Herramientas\apiFestivos.core\obj\Debug\net9.0\apiFestivos.core.pdb
+C:\Users\User\OneDrive\Documents\C#\Taller_1_Herramientas\apiFestivos.core\obj\Debug\net9.0\ref\apiFestivos.core.dll

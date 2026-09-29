@@ -3,32 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\User\\OneDrive\\Documents\\C#\\Taller_1_Herramientas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9F3A19D4-C309-44BB-9D34-E2B79488B17D}|apiFestivos.core\\apiFestivos.core.csproj|c:\\users\\user\\onedrive\\documents\\c#\\taller_1_herramientas\\apifestivos.core\\repositorio\\ifestivorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F3A19D4-C309-44BB-9D34-E2B79488B17D}|apiFestivos.core\\apiFestivos.core.csproj|solutionrelative:apifestivos.core\\repositorio\\ifestivorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7076883F-0612-4DAE-8E30-35AD756CD64F}|Taller_1_Herramientas\\Taller_1_Herramientas.csproj|c:\\users\\user\\onedrive\\documents\\c#\\taller_1_herramientas\\taller_1_herramientas\\controllers\\paiscontrolador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7076883F-0612-4DAE-8E30-35AD756CD64F}|Taller_1_Herramientas\\Taller_1_Herramientas.csproj|solutionrelative:taller_1_herramientas\\controllers\\paiscontrolador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F3A19D4-C309-44BB-9D34-E2B79488B17D}|apiFestivos.core\\apiFestivos.core.csproj|c:\\users\\user\\onedrive\\documents\\c#\\taller_1_herramientas\\apifestivos.core\\repositorio\\ipaisrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F3A19D4-C309-44BB-9D34-E2B79488B17D}|apiFestivos.core\\apiFestivos.core.csproj|solutionrelative:apifestivos.core\\repositorio\\ipaisrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7076883F-0612-4DAE-8E30-35AD756CD64F}|Taller_1_Herramientas\\Taller_1_Herramientas.csproj|c:\\users\\user\\onedrive\\documents\\c#\\taller_1_herramientas\\taller_1_herramientas\\inyecciondependencias\\inyecciondependencias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7076883F-0612-4DAE-8E30-35AD756CD64F}|Taller_1_Herramientas\\Taller_1_Herramientas.csproj|solutionrelative:taller_1_herramientas\\inyecciondependencias\\inyecciondependencias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F3A19D4-C309-44BB-9D34-E2B79488B17D}|apiFestivos.core\\apiFestivos.core.csproj|c:\\users\\user\\onedrive\\documents\\c#\\taller_1_herramientas\\apifestivos.core\\repositorio\\itiporepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F3A19D4-C309-44BB-9D34-E2B79488B17D}|apiFestivos.core\\apiFestivos.core.csproj|solutionrelative:apifestivos.core\\repositorio\\itiporepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7076883F-0612-4DAE-8E30-35AD756CD64F}|Taller_1_Herramientas\\Taller_1_Herramientas.csproj|c:\\users\\user\\onedrive\\documents\\c#\\taller_1_herramientas\\taller_1_herramientas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7076883F-0612-4DAE-8E30-35AD756CD64F}|Taller_1_Herramientas\\Taller_1_Herramientas.csproj|solutionrelative:taller_1_herramientas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9741705-E886-48D2-9ADC-F9A621FD6D71}|Apifestivos.infraestructura\\Apifestivos.infraestructura.csproj|c:\\users\\user\\onedrive\\documents\\c#\\taller_1_herramientas\\apifestivos.infraestructura\\persistencia\\festivosapicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9741705-E886-48D2-9ADC-F9A621FD6D71}|Apifestivos.infraestructura\\Apifestivos.infraestructura.csproj|solutionrelative:apifestivos.infraestructura\\persistencia\\festivosapicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4952640-E115-4F15-8842-D2FFF6166CC5}|apiFestivos.dominio\\apiFestivos.dominio.csproj|c:\\users\\user\\onedrive\\documents\\c#\\taller_1_herramientas\\apifestivos.dominio\\festivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4952640-E115-4F15-8842-D2FFF6166CC5}|apiFestivos.dominio\\apiFestivos.dominio.csproj|solutionrelative:apifestivos.dominio\\festivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4952640-E115-4F15-8842-D2FFF6166CC5}|apiFestivos.dominio\\apiFestivos.dominio.csproj|c:\\users\\user\\onedrive\\documents\\c#\\taller_1_herramientas\\apifestivos.dominio\\tipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4952640-E115-4F15-8842-D2FFF6166CC5}|apiFestivos.dominio\\apiFestivos.dominio.csproj|solutionrelative:apifestivos.dominio\\tipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4952640-E115-4F15-8842-D2FFF6166CC5}|apiFestivos.dominio\\apiFestivos.dominio.csproj|c:\\users\\user\\onedrive\\documents\\c#\\taller_1_herramientas\\apifestivos.dominio\\pais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4952640-E115-4F15-8842-D2FFF6166CC5}|apiFestivos.dominio\\apiFestivos.dominio.csproj|solutionrelative:apifestivos.dominio\\pais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7076883F-0612-4DAE-8E30-35AD756CD64F}|Taller_1_Herramientas\\Taller_1_Herramientas.csproj|c:\\users\\user\\onedrive\\documents\\c#\\taller_1_herramientas\\taller_1_herramientas\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7076883F-0612-4DAE-8E30-35AD756CD64F}|Taller_1_Herramientas\\Taller_1_Herramientas.csproj|solutionrelative:taller_1_herramientas\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -51,90 +39,54 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ItipoRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\C#\\Taller_1_Herramientas\\apiFestivos.core\\repositorio\\ItipoRepositorio.cs",
-              "RelativeDocumentMoniker": "apiFestivos.core\\repositorio\\ItipoRepositorio.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\C#\\Taller_1_Herramientas\\apiFestivos.core\\repositorio\\ItipoRepositorio.cs",
-              "RelativeToolTip": "apiFestivos.core\\repositorio\\ItipoRepositorio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\C#\\Taller_1_Herramientas\\Taller_1_Herramientas\\Program.cs",
+              "RelativeDocumentMoniker": "Taller_1_Herramientas\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\C#\\Taller_1_Herramientas\\Taller_1_Herramientas\\Program.cs",
+              "RelativeToolTip": "Taller_1_Herramientas\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-13T22:48:23.534Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "IFestivoRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\C#\\Taller_1_Herramientas\\apiFestivos.core\\repositorio\\IFestivoRepositorio.cs",
-              "RelativeDocumentMoniker": "apiFestivos.core\\repositorio\\IFestivoRepositorio.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\C#\\Taller_1_Herramientas\\apiFestivos.core\\repositorio\\IFestivoRepositorio.cs",
-              "RelativeToolTip": "apiFestivos.core\\repositorio\\IFestivoRepositorio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-13T22:47:47.92Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IPaisRepositorio.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\C#\\Taller_1_Herramientas\\apiFestivos.core\\repositorio\\IPaisRepositorio.cs",
-              "RelativeDocumentMoniker": "apiFestivos.core\\repositorio\\IPaisRepositorio.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\C#\\Taller_1_Herramientas\\apiFestivos.core\\repositorio\\IPaisRepositorio.cs",
-              "RelativeToolTip": "apiFestivos.core\\repositorio\\IPaisRepositorio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-13T22:47:25.76Z",
+              "WhenOpened": "2026-09-29T22:41:22.376Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "festivosApiContext.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\C#\\Taller_1_Herramientas\\Apifestivos.infraestructura\\Persistencia\\festivosApiContext.cs",
-              "RelativeDocumentMoniker": "Apifestivos.infraestructura\\Persistencia\\festivosApiContext.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\C#\\Taller_1_Herramientas\\Apifestivos.infraestructura\\Persistencia\\festivosApiContext.cs",
-              "RelativeToolTip": "Apifestivos.infraestructura\\Persistencia\\festivosApiContext.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCMAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-31T16:15:18.09Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\C#\\Taller_1_Herramientas\\Taller_1_Herramientas\\appsettings.json",
+              "RelativeDocumentMoniker": "Taller_1_Herramientas\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\C#\\Taller_1_Herramientas\\Taller_1_Herramientas\\appsettings.json",
+              "RelativeToolTip": "Taller_1_Herramientas\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-29T22:39:14.314Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Festivo.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\C#\\Taller_1_Herramientas\\apiFestivos.dominio\\Festivo.cs",
-              "RelativeDocumentMoniker": "apiFestivos.dominio\\Festivo.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\C#\\Taller_1_Herramientas\\apiFestivos.dominio\\Festivo.cs",
-              "RelativeToolTip": "apiFestivos.dominio\\Festivo.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "InyeccionDependencias.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\C#\\Taller_1_Herramientas\\Taller_1_Herramientas\\InyeccionDependencias\\InyeccionDependencias.cs",
+              "RelativeDocumentMoniker": "Taller_1_Herramientas\\InyeccionDependencias\\InyeccionDependencias.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\C#\\Taller_1_Herramientas\\Taller_1_Herramientas\\InyeccionDependencias\\InyeccionDependencias.cs",
+              "RelativeToolTip": "Taller_1_Herramientas\\InyeccionDependencias\\InyeccionDependencias.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-31T16:05:10.667Z"
+              "WhenOpened": "2026-09-29T22:35:32.861Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Tipo.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\C#\\Taller_1_Herramientas\\apiFestivos.dominio\\Tipo.cs",
-              "RelativeDocumentMoniker": "apiFestivos.dominio\\Tipo.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\C#\\Taller_1_Herramientas\\apiFestivos.dominio\\Tipo.cs",
-              "RelativeToolTip": "apiFestivos.dominio\\Tipo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAWAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "PaisControlador.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\C#\\Taller_1_Herramientas\\Taller_1_Herramientas\\Controllers\\PaisControlador.cs",
+              "RelativeDocumentMoniker": "Taller_1_Herramientas\\Controllers\\PaisControlador.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\C#\\Taller_1_Herramientas\\Taller_1_Herramientas\\Controllers\\PaisControlador.cs",
+              "RelativeToolTip": "Taller_1_Herramientas\\Controllers\\PaisControlador.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-31T16:04:44.725Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Pais.cs",
-              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Documents\\C#\\Taller_1_Herramientas\\apiFestivos.dominio\\Pais.cs",
-              "RelativeDocumentMoniker": "apiFestivos.dominio\\Pais.cs",
-              "ToolTip": "C:\\Users\\User\\OneDrive\\Documents\\C#\\Taller_1_Herramientas\\apiFestivos.dominio\\Pais.cs",
-              "RelativeToolTip": "apiFestivos.dominio\\Pais.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-31T16:04:18.179Z"
+              "WhenOpened": "2026-09-29T22:33:35.447Z",
+              "EditorCaption": ""
             }
           ]
         }
