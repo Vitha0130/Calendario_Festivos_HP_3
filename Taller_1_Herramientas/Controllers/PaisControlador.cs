@@ -50,16 +50,5 @@ namespace Taller_1_Herramientas.Controllers
             return CreatedAtAction(nameof(Obtener), nuevoPais);
         }
 
-        //[HttpDelete("{id}")]
-        //public async Task<IActionResult> Eliminar(int id)
-        //{
-        //    var existente = await servicio.ObtenerPorId(id);
-        //    if (existente == null)
-        //        return NotFound();
-
-        //    await servicio.Eliminar(id);
-        //    return NoContent();
-        //}
-
     }
 }

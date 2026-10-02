@@ -80,13 +80,13 @@ namespace Apifestivos.infraestructura.Persistencia
                       .IsRequired();
 
                 entity.HasOne(f => f.Tipo)
-                      .WithMany(t => t.Festivos)
+                      .WithMany()
                       .HasForeignKey(f => f.IdTipo)
                       .HasConstraintName("fkFestivo_Tipo")
                       .OnDelete(DeleteBehavior.Restrict);
 
                 entity.HasOne(f => f.Pais)
-                      .WithMany(p => p.Festivos)
+                      .WithMany()
                       .HasForeignKey(f => f.IdPais)
                       .HasConstraintName("fkFestivo_Pais")
                       .OnDelete(DeleteBehavior.Restrict);

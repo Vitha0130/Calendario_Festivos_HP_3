@@ -20,8 +20,5 @@ namespace apiFestivos.dominio
         [Required]
         [MaxLength(100)]
         public string Nombre { get; set; } = string.Empty;
-
-        // Propiedad de navegación (relación 1 a muchos con Festivo)
-        public ICollection<Festivo> Festivos { get; set; } = new List<Festivo>();
     }
 }

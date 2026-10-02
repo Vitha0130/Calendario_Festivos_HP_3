@@ -19,7 +19,6 @@ namespace apiFestivos.aplicacion
             this.repositorio = repositorio;
         }
 
-        // Algoritmo dado en el enunciado (basado en el de Gauss)
         public DateTime CalcularDomingoPascua(int anio)
         {
             int a = anio % 19;
@@ -83,20 +82,20 @@ namespace apiFestivos.aplicacion
 
             switch (festivo.IdTipo)
             {
-                case 1: // Fijo
+                case 1:
                     fecha = new DateTime(anio, festivo.Mes, festivo.Dia);
                     break;
 
-                case 2: // Ley de puente festivo
+                case 2:
                     fecha = new DateTime(anio, festivo.Mes, festivo.Dia);
                     fecha = TrasladarASiguienteLunes(fecha);
                     break;
 
-                case 3: // Basado en domingo de pascua
+                case 3: 
                     fecha = domingoPascua.AddDays(festivo.DiasPascua);
                     break;
 
-                case 4: // Pascua + puente festivo
+                case 4: 
                     fecha = domingoPascua.AddDays(festivo.DiasPascua);
                     fecha = TrasladarASiguienteLunes(fecha);
                     break;

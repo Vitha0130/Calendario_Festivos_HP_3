@@ -1,4 +1,4 @@
-
+using System.Text.Json.Serialization;
 using Taller_1_Herramientas.InyeccionDependencias;
 
 namespace Taller_1_Herramientas
@@ -7,18 +7,21 @@ namespace Taller_1_Herramientas
     {
         public static void Main(string[] args)
         {
-            var builder = WebApplication.CreateBuilder(args);
 
-            //establecer objeto de configuracion
+            var builder = WebApplication.CreateBuilder(args);
             var configuracion = builder.Configuration;
 
-            //establecer los objetos a inyectar
             builder.Services.AgregarDependencias(configuracion);
-            builder.Services.AddControllers();
-
+            builder.Services.AddControllers().AddJsonOptions(options =>
+            {
+                options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
+            });
+            builder.Services.AddSwaggerGen();
 
             var app = builder.Build();
 
+            app.UseSwagger();
+            app.UseSwaggerUI();
 
             app.UseHttpsRedirection();
 
@@ -26,5 +29,6 @@ namespace Taller_1_Herramientas
 
             app.Run();
         }
+
     }
 }

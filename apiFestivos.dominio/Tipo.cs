@@ -20,6 +20,5 @@ namespace apiFestivos.dominio
         [Required]
         [MaxLength(100)]
         public string Tipo1 { get; set; } = string.Empty; 
-        public ICollection<Festivo> Festivos { get; set; } = new List<Festivo>();
     }
 }

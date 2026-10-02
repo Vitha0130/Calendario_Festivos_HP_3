@@ -26,7 +26,7 @@ namespace Apifestivos.infraestructura.repositorios
                 .Include(f => f.Pais)
                 .ToListAsync();
         }
-
+         
         public async Task<Festivo?> ObtenerPorId(int id)
         {
             return await contexto.Festivos
@@ -64,6 +64,7 @@ namespace Apifestivos.infraestructura.repositorios
         {
             return await contexto.Festivos
                 .Include(f => f.Tipo)
+                .Include(f => f.Pais)
                 .Where(f => f.IdPais == idPais)
                 .ToListAsync();
         }
