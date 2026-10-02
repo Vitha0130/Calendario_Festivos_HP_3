@@ -1,6 +1,0 @@
-@apiFestivos.presentacion_HostAddress = http://localhost:5135
-
-GET {{apiFestivos.presentacion_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
