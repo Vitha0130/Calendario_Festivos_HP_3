@@ -32,6 +32,7 @@ namespace Apifestivos.infraestructura.repositorios
             return await contexto.Festivos
                 .Include(f => f.Tipo)
                 .Include(f => f.Pais)
+                .AsNoTracking()
                 .FirstOrDefaultAsync(f => f.Id == id);
         }
 

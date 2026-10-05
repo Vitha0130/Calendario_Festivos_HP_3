@@ -38,12 +38,12 @@ namespace apiFestivos.dominio
         [Required]
         [ForeignKey(nameof(Tipo))]
         public int IdTipo { get; set; }
-        public Tipo Tipo { get; set; } = null!;
+        public Tipo? Tipo { get; set; } = null!;
 
         [Column("IdPais")]
         [Required]
         [ForeignKey(nameof(Pais))]
         public int IdPais { get; set; }
-        public Pais Pais { get; set; } = null!;
+        public Pais? Pais { get; set; } = null!;
     }
 }

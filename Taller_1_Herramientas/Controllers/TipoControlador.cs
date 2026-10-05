@@ -35,6 +35,7 @@ namespace Taller_1_Herramientas.Controllers
             }
             return Ok(tipo);
         }
+        
 
     }
 }

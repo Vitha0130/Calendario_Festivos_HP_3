@@ -47,8 +47,37 @@ namespace Taller_1_Herramientas.Controllers
                 return BadRequest(ModelState);
             }
             var nuevoPais = await servicio.Crear(pais);
-            return CreatedAtAction(nameof(Obtener), nuevoPais);
+            return CreatedAtAction(nameof(Obtener), new { Id = nuevoPais.Id }, nuevoPais);
+        }
+
+        [HttpDelete("{Id:int}")]
+        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(bool))]
+
+        public async Task<ActionResult<bool>> Eliminar(int id)
+        {
+            var pais = await servicio.ObtenerPorId(id);
+            if (pais == null)
+            {
+                return NotFound(new { mensaje = $"No se encontró el País con ID= {id}" });
+            }
+            await servicio.Eliminar(id);
+            return Ok(true);
+        }
+        [HttpPut("{Id:int}")]
+        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(Pais))]
+        public async Task<ActionResult<Pais>> Actualizar(int id, [FromBody] Pais pais)
+        {
+            var paisExistente = await servicio.ObtenerPorId(id);
+            if (paisExistente == null)
+            {
+                return NotFound(new { mensaje = $"No se encontró el País con ID= {id}" });
+            }
+
+            pais.Id = id;
+            await servicio.Actualizar(pais);
+            return Ok(pais);
         }
 
     }
 }
+ 

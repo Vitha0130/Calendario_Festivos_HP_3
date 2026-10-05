@@ -145,6 +145,63 @@
   },
   {
     "ContainingType": "Taller_1_Herramientas.Controllers.FestivoControlador",
+    "Method": "Eliminar",
+    "RelativePath": "api/festivo/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "apiFestivos.dominio.Festivo",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Taller_1_Herramientas.Controllers.FestivoControlador",
+    "Method": "Actualizar",
+    "RelativePath": "api/festivo/{Id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "festivo",
+        "Type": "apiFestivos.dominio.Festivo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "apiFestivos.dominio.Festivo",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Taller_1_Herramientas.Controllers.FestivoControlador",
     "Method": "ObtenerPorPais",
     "RelativePath": "api/festivo/pais/{idPais}",
     "HttpMethod": "GET",
@@ -226,6 +283,63 @@
       {
         "Name": "Id",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "apiFestivos.dominio.Pais",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Taller_1_Herramientas.Controllers.PaisControlador",
+    "Method": "Eliminar",
+    "RelativePath": "api/pais/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Taller_1_Herramientas.Controllers.PaisControlador",
+    "Method": "Actualizar",
+    "RelativePath": "api/pais/{Id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "pais",
+        "Type": "apiFestivos.dominio.Pais",
         "IsRequired": true
       }
     ],

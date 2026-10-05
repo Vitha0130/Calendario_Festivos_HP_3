@@ -51,6 +51,35 @@ namespace Taller_1_Herramientas.Controllers
             return CreatedAtAction(nameof(Obtener), new { Id = nuevoFestivo.Id }, nuevoFestivo);
         }
 
+        [HttpDelete("{Id:int}")]
+        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(Festivo))]
+        public async Task<ActionResult<Festivo>> Eliminar(int Id)
+        {
+            var festivo = await servicio.ObtenerPorId(Id);
+            if (festivo == null)
+            {
+                return NotFound(new { mensaje = $"No se encontró el Festivo con ID= {Id}" });
+            }
+            await servicio.Eliminar(Id);
+            return Ok(festivo);
+        }
+
+        [HttpPut("{Id:int}")]
+        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(Festivo))]
+
+        public async Task<ActionResult<Festivo>> Actualizar(int id, [FromBody] Festivo festivo)
+        {
+            var festivoExistente = await servicio.ObtenerPorId(id);
+            if (festivoExistente == null)
+            {
+                return NotFound(new { mensaje = $"No se encontró el Festivo con ID= {id}" });
+            }
+
+            festivo.Id = id;
+            await servicio.Actualizar(festivo);
+            return Ok(festivo);
+        }
+
         [HttpGet("pais/{idPais:int}")]
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(IEnumerable<Festivo>))]
         public async Task<ActionResult<IEnumerable<Festivo>>> ObtenerPorPais(int idPais)

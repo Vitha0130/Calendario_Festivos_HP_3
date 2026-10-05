@@ -28,7 +28,9 @@ namespace Apifestivos.infraestructura.repositorios
 
         public async Task<Pais?> ObtenerPorId(int id)
         {
-            return await contexto.Paises.FindAsync(id);
+            return await contexto.Paises
+         .AsNoTracking()
+         .FirstOrDefaultAsync(p => p.Id == id);
         }
 
         public async Task<Pais> Crear(Pais pais)
